@@ -1,0 +1,17 @@
+.spinning-indicator {
+  display: none;
+  z-index: 1000;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+#spinning-indicator svg {
+  height: auto;
+  width: 100px;;
+}
+
+.show-loading #loading-indicator {
+  display: block;
+}
